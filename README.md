@@ -9,6 +9,7 @@ https://nodejs.org/en/download : Windows Installer (.msi)
 
 **INSTALL --->** MySQL
 https://dev.mysql.com/downloads/installer/ : Windows (x86, 32-bit), MSI Installer : Size 353.7M
+
 !!! ในหน้าแรก กรุณาติดตั้งเป็น Full นะครับ !!!
 
 !!! ในขั้นตอนการติดตั้ง MySQL Database ให้ตั้งรหัสเป็น 1234 เท่านั้น !!!
