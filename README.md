@@ -44,13 +44,14 @@ https://dev.mysql.com/downloads/installer/ : Windows (x86, 32-bit), MSI Installe
 ---------------------------------
 
 --- Project Setup Section ---
-npm install
+
+* npm install
 (ใช้ติดตั้งแพ็คเกจทั้งหมดของโปรเจค)
 
-npx prisma migrate dev --name init
+* npx prisma migrate dev --name init
 (ใช้ Migrate ฐานข้อมูลของโปรเจค)
 
-npm run dev
+* npm run dev
 (ใช้เพื่อรัน หรือ deploy โปรเจค)
 
 **หลังจากที่ทำการ deploy โปรเจคไปแล้ว ให้ทำการเปิดบราวเซอร์ และไปยัง URL ตามนี้**
