@@ -52,6 +52,8 @@ https://dev.mysql.com/downloads/installer/ : Windows (x86, 32-bit), MSI Installe
 * **3. ทำการเรียกใช้คำสั่งด้านล่างทั้งหมดได้เลย ตั้งแต่ npm install เป็นต้นไป**
 * **ปล. ถ้าใช้ Command Prompt แล้วไม่ได้ผล หรือ Error ให้เปลี่ยนไปใช้ Windows PowerShell แทนได้เลย**
 
+--- ดำเนินการ run ทีละคำสั่งได้เลย ---
+
 * npm install
 (ใช้ติดตั้งแพ็คเกจทั้งหมดของโปรเจค)
 
@@ -59,7 +61,7 @@ https://dev.mysql.com/downloads/installer/ : Windows (x86, 32-bit), MSI Installe
 (ใช้ Migrate ฐานข้อมูลของโปรเจค)
 
 * npm run dev
-(ใช้เพื่อรัน หรือ deploy โปรเจค)
+(ใช้เพื่อรันเซิฟเวอร์ หรือ deploy โปรเจคนั่นเอง)
 
 **หลังจากที่ทำการ deploy โปรเจคไปแล้ว ให้ทำการเปิดบราวเซอร์ และไปยัง URL ตามนี้**
 http://localhost:3000/
