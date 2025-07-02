@@ -35,7 +35,7 @@ https://dev.mysql.com/downloads/installer/ : Windows (x86, 32-bit), MSI Installe
 * cd ไปยังไดร์ฟ C ด้วยคำสั่ง cd C:\
 * พิมพ์ git clone https://github.com/PokpongSunapha16/CICD_Project.git
 * เสร็จสิ้นการ Clone Project
-* **สามารถใช้คำสั่ง explorer . เพื่อใช้ในการเข้าไปยังตำแหน่งโฟลเดอร์โปรเจคได้**
+* **ปล. สามารถใช้คำสั่ง explorer . เพื่อใช้ในการเข้าไปยังตำแหน่งโฟลเดอร์โปรเจคได้**
 
 รูปภาพประกอบการขั้นตอน Clone Project
 
@@ -44,6 +44,13 @@ https://dev.mysql.com/downloads/installer/ : Windows (x86, 32-bit), MSI Installe
 ---------------------------------
 
 --- Project Setup Section ---
+
+* **หากไม่สามารถใช้งานคำสั่งเหล่านี้ใน VS Code ได้ ให้ทำตามดังนี้**
+* **1. ค้นหา Command Prompt ใน Windows Search และเปิดใช้งาน**
+* **2. พิมพ์คำสั่ง cd เข้าไปยัง path ของโปรเจค ubonhooper**
+* **ยกตัวอย่าง cd D:\UbonHooperClub\ubonhooper เป็นต้น**
+* **3. ทำการเรียกใช้คำสั่งด้านล่างทั้งหมดได้เลย ตั้งแต่ npm install เป็นต้นไป**
+* **ปล. ถ้าใช้ Command Prompt แล้วไม่ได้ผล หรือ Error ให้เปลี่ยนไปใช้ Windows PowerShell แทนได้เลย**
 
 * npm install
 (ใช้ติดตั้งแพ็คเกจทั้งหมดของโปรเจค)
