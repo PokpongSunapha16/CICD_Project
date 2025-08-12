@@ -25,15 +25,17 @@ https://dev.mysql.com/downloads/installer/ : Windows (x86, 32-bit), MSI Installe
 
 --- ขั้นตอนการดำเนินการใช้งานเว็บไซต์ ---
 
-* 1.  cd CICD_Project
+* 1  cd CICD_Project
 (ใช้ CD เข้าไปยัง Repo ที่ได้ทำการ Clone)
 
-* 2. cd ubonhooper
+* 2 cd ubonhooper
 (ใช้ CD เข้าไปยังโฟลเดอร์โปรเจคข้างใน)
 
-* 3. docker compose up -d
+* 3 docker compose up -d
 (ใช้สร้าง docker container และ image ของโปรเจคนี้)
 
 **หลังจากที่ทำการ Build โปรเจคไปแล้ว ให้ทำการเปิดบราวเซอร์ และไปยัง URL เพื่อเข้าใช้งาน**
 http://localhost:3000/
 
+**แนะนำให้ใช้รูปภาพที่มีนามสกุล .jpg หรือ .png และ มีขนาดไม่สูงมาก ในการสมัครสมาชิก ! ! !**
+**สามารถใช้รูปภาพในโฟลเดอร์ Profile Picture For Register เพื่อทดสอบการสมัครได้**
